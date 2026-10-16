@@ -1,33 +1,56 @@
-# Learning-HTML
-HTML Learner 
-```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buffer Box</title>
-
-    <style>
-        .buffer {
-            width: 300px;
-            min-height: 100px;
-            padding: 15px;
-            border: 2px solid black;
-            background-color: lightblue;
-            border-radius: 10px;
-            margin: 20px;
-        }
-    </style>
+    <title>First HTML project</title>
 </head>
 <body>
+    <header><h1 align="center">Question Paper</h1>
+     <p align="center">For mental ability test </p><br>
+     <p align="left">  DURATION : 60 Minutes </p>
+     <p align="center">  Date : 16/10/2026 </p>
+     <p align="right">  MAXIMUM MARKS : 100 </p>
+    </header>
+     <hr>
+     <p align="justify"> <b><u> Obey the following instructions </u> :</b></p>
+     <main> 
+        <ul type ="disc">
+        <li> Immidiately fill in the perticular on this page of the test booklet.</li>
+        <li> This test is of 60 minutes duration and Test booklet contains 8 Questions.</li>
+        <li> Use blue/black dark ballpoint pens</li>
+        <li> Never use pencils to mark your answers.</li>
+        <li> Never use whiteners to rectify filling errors as they may disrupt the scannning and evaluation process.</li>
+        <li>Dont fold or make any stray mark on the answer sheet.</li>
+     </ul>
+    </main> 
 
-    <h2>My Buffer Box</h2>
+    <pre>
 
-    <div class="buffer">
-        This is a buffer box.
-        Content can be displayed here.
-    </div>
 
+
+
+
+    </pre>
+    
+    <footer align="center">
+         <form>
+        <label for="username">Name :</label>
+        <input type="text" id ="username" placeholder="Enter your name" required><br>
+        <label for="rollnumber">Roll Number :</label>
+        <input type="number" id ="rollnumber" placeholder="Enter your roll number" required><br>
+        <label for="branch">Branch :</label>
+        <input type="text" id ="branch" placeholder="Enter your branch" required><br>
+        <label for="year">Year:</label>
+        <input type="number" id ="year" placeholder="Enter your year" required><br>
+        <label for="dateofbirth">DOB:</label>
+        <input type="date" id ="dateofbirth" required><br>
+        <input type="submit" value="Submit">
+     </form>
+    </footer>
+    
+    <aside>
+        <p> Click here to give test<a href="D:\Learning-HTML\project1.html">Start</a></p>
+    </aside>
+     
 </body>
 </html>
